@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VODA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/736633764930912257/833306558288101386/unknown.png" type="image/x-icon">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section>
+        
+
+
+
+        <header>
+            <a href="index.html"><img src="logo2.png"  class="logo"></a>
+            <ul class="ul_menu">
+                <li class="li_menu"><a href="index.html" class="a_menu">HOME</a></li>
+                
+                <li class="li_menu"><a target="_blank" href="https://www.instagram.com/voda4you/" class="a_menu">INSTAGRAM</a></li>
+                <li class="li_menu"><a href="choice.html" class="a_menu">BUY</a></li>
+            </ul>   
+        </header>
+        
+
+        <main class="main_choice">
+            <div class="shopping-cart">
+                <!-- Title -->
+                <div class="title">
+                  Shopping Bag
+                </div>
+                    <div class="item">
+                        <div class="image">
+                        <img src="img1_up.png" alt="" />
+                        </div>
+                
+                        <div class="description">
+                        <span>FOREST LEAVE</span>
+                        <span>Лесная свежесть</span>
+                        </div>
+                
+                        <div class="quantity">
+                        <button class="plus-btn" type="button" name="button"  onclick="plus('num_input1')">
+                            <p>+</p>
+                        </button>
+                        <input type="text" name="name" value="1"  id="num_input1" onchange="what_resualt()">
+                        <button class="minus-btn" type="button" name="button"  onclick="minus('num_input1')">
+                            <p>-</p>
+                        </button>
+                        </div>
+                
+                        <div class="total-price">$5.00</div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                        <img src="img2_up.png" alt="" />
+                        </div>
+                
+                        <div class="description">
+                        <span>FROSTY FRUIT</span>
+                        <span>Вишни и киви</span>
+                        </div>
+                
+                        <div class="quantity">
+                        <button class="plus-btn" type="button" name="button"  onclick="plus('num_input2')">
+                            <p>+</p>
+                        </button>
+                        <input type="text" name="name" value="1"  id="num_input2" onchange="what_resualt()">
+                        <button class="minus-btn" type="button" name="button"  onclick="minus('num_input2')">
+                            <p>-</p>
+                        </button>
+                        </div>
+                
+                        <div class="total-price">$5.00</div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                        <img src="img3_up.png" alt="" />
+                        </div>
+                
+                        <div class="description">
+                        <span>FICSPEARE</span>
+                        <span>грушей и инжир</span>
+                        </div>
+                
+                        <div class="quantity">
+                        <button class="plus-btn" type="button" name="button"  onclick="plus('num_input3')">
+                            <p>+</p>
+                        </button>
+                        <input type="text" name="name" value="1" id="num_input3" onchange="what_resualt()">
+                        <button class="minus-btn" type="button" name="button" onclick="minus('num_input3')">
+                            <p>-</p>
+                        </button>
+                        </div>
+                
+                        <div class="total-price">$5.00</div>
+                    </div>
+                    <div class="item">
+                        <a class="buy_list" href="buy.html" id="">Order 15$</a>
+                    </div>
+
+            </div>
+            
+            
+
+        </main>
+            
+
+
+    </section>
+
+
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script src="choice.js"></script>
+</body>
+
+</html>
